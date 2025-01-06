@@ -1,0 +1,216 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo",
+                "What's up?",
+                "How's it going?",
+                "Hey there",
+                "What's happening?"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey, how can I assist?",
+                "Greetings!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye",
+                "See you soon",
+                "Take care",
+                "Farewell"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye, take care!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "I appreciate it",
+                "Thank you so much"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "Could you rephrase that?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "What can you do?",
+                "I need help",
+                "Assist me",
+                "Help me out",
+                "What are your capabilities?"
+            ],
+            "responses": [
+                "I can help you with many tasks like opening apps, checking the time, sending messages, and more!",
+                "Ask me to do anything like open an app, check the weather, or tell a joke!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "commands",
+            "patterns": [
+                "What commands do you know?",
+                "List some commands",
+                "Give me the commands",
+                "Tell me what you can do"
+            ],
+            "responses": [
+                "I can help you open apps, search on Google or YouTube, tell jokes, check system conditions, and more!",
+                "You can ask me to open apps, tell you the time, play music, and even tell jokes!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh",
+                "Tell a funny joke"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough.",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes."
+            ],
+            "context": ["jokes"]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "Who made you",
+                "Who invented you",
+                "Who created you",
+                "Who designed you",
+                "What is your name",
+                "Who is your creator"
+            ],
+            "responses": [
+                "I am IRIS, a Deep-Learning based Virtual Assistant.",
+                "I was created by Abhiram"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is today",
+                "current time",
+                "what is the time now"
+            ],
+            "responses": [
+                "The current time is {time}.",
+                "Today's date and time is {date_time}."
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing",
+                "What’s happening"
+            ],
+            "responses": [
+                "All good..What about you?",
+                "I'm doing great! How about you?"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age",
+                "how long have you existed"
+            ],
+            "responses": [
+                "I was made in 2025, if that's what you are asking!",
+                "I came into existence in 2025."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Is it going to rain?",
+                "Tell me the weather forecast",
+                "What's the temperature today?",
+                "How's the weather?"
+            ],
+            "responses": [
+                "I am unable to fetch live weather data right now. You can check it online or use a weather app!",
+                "Unfortunately, I cannot check the weather at the moment."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you?",
+                "Where is your location?",
+                "Where do you live?",
+                "Where are you based?"
+            ],
+            "responses": [
+                "I exist in the cloud, so I don't have a physical location.",
+                "I am a virtual assistant, and I don't have a physical presence."
+            ]
+        }
+    ]
+}
